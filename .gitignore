@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables (keep .env.example, never commit .env)
+.env
+deploy/**/.env
+deploy/**/eval.env
+
+# Deploy kit generated artifacts
+deploy/**/eval-results/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+archive/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+.zed/
+*.swp
+
+.DS_Store
+# Local live API snapshots
+review-output/
